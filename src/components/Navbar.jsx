@@ -1,7 +1,7 @@
 import React from "react";
 export default function Navbar(){ //In react we use HTML under a function. Export default makes this function available to other files.
     return( //return all the below structure on the page.
-        <header className="nav-container">
+        <header className="nav-container"> {/*className are used so I can edit and css them up */ }
             <div className="nav-logo">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_2013_Google.png/320px-Logo_2013_Google.png" 
                 alt="logo"
@@ -11,7 +11,7 @@ export default function Navbar(){ //In react we use HTML under a function. Expor
             </div>
             <nav className="nav-links">
                 <a href="#home" className="nav-link active">Home</a>
-                <a href="#review" className="nav-link">Reviews</a>
+                <a href="#review" className="nav-link">Reviews</a>   {/* <a> tag is an anchor element helps connect another page on our web page*/}
                 <a href="#upload" className="nav-link">Upload</a>
                 <a href="#History" className="nav-link">Pre Uploads</a>
             </nav>
